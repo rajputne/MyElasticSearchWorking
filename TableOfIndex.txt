@@ -1,0 +1,308 @@
+ 1   
+
+Definitions   
+
+    
+
+Section 1.01.  Defined Terms 1 
+
+Section 1.02.  Accounting Terms 32 
+
+Section 1.03.  Rules of Construction 32 
+
+    
+
+JigarAnkitNeeraj 2   
+
+Amount and Terms of Commitments   
+
+    
+
+Section 2.01.  Commitments 33 
+
+Section 2.02.  Procedure for Borrowing 33 
+
+Section 2.03.  Fees 34 
+
+Section 2.04.  Repayment of Loans; Evidence of Debt 34 
+
+Section 2.05.  Prepayments 35 
+
+Section 2.06.  Interest Rates and Payment Dates 37 
+
+Section 2.07.  Payments and Computations 38 
+
+Section 2.08.  Taxes 39 
+
+Section 2.09.  Lender’s Obligation to Mitigate 43 
+
+Section 2.10.  Sharing of Payments, Etc 43 
+
+
+
+Section 2.11.  Warrants 43 
+
+Section 2.12.  Illegality 44 
+
+Section 2.13.  Inability to Determine Rates 45 
+
+Section 2.14.  Increased Costs to Such Day; Reserves on Loans 46 
+
+Section 2.15.  Compensation for Losses 47 
+
+Section 2.16.  Replacement of Lenders. 48 
+
+Section 2.17.  Survival 48 
+
+    
+
+JigarAnkitNeeraj 3   
+
+Representations and Warranties   
+
+    
+
+Section 3.01.  Existence and Power 48 
+
+Section 3.02.  Authority 49 
+
+Section 3.03.  Binding Effect 49 
+
+Section 3.04.  Capital Stock; Subsidiaries 49 
+
+Section 3.05.  Business Operations and Other Information; Financial Condition; No Material Adverse 
+
+Effect 50 
+
+Section 3.06.  Litigation; No Violation of Governmental Orders or Laws 51 
+
+Section 3.07.  No Conflicts with Agreements, Etc 51 
+
+Section 3.08.  Consents, Etc 52 
+
+Section 3.09.  Outstanding Indebtedness 52 
+
+ 
+  
+
+  
+
+ 
+Section 3.10.  Taxes 52 
+
+Section 3.11.  Disclosure 53 
+
+Section 3.12.  Margin Regulations 53 
+
+Section 3.13.  Pension and Benefit Plans 54 
+
+Section 3.14.  Labor Matters 54 
+
+Section 3.15.  Possession of Franchises, Licenses, Etc 55 
+
+Section 3.16.  Intellectual Property 55 
+
+Section 3.17.  Use of Proceeds 55 
+
+Section 3.18.  OFAC; Anti-Corruption Laws 55 
+
+Section 3.19.  Status under Certain Laws 56 
+
+Section 3.20.  Ranking of Loans 56 
+
+Section 3.21.  Solvency 56 
+
+Section 3.22.  Restrictions on or Relating to Subsidiaries 56 
+
+Section 3.23.  Collateral Documents 56 
+
+Section 3.24.  Environmental Matters 57 
+
+Section 3.25.  Acquired License. 58 
+
+Section 3.26.  Ownership of Property; Liens. 59 
+
+Section 3.27.  Material Contracts. 59 
+
+    
+
+JigarAnkitNeeraj 4   
+
+Conditions Precedent   
+
+    
+
+Section 4.01.  Closing Conditions 59 
+
+    
+
+JigarAnkitNeeraj 5   
+
+Affirmative Covenants of the Borrower   
+
+    
+
+Section 5.01.  Financial Statements and Information 63 
+
+Section 5.02.  Inspection of Properties and Books 67 
+
+Section 5.03.  Payment of Principal, Prepayment Charge and Interest 68 
+
+
+
+Section 5.04.  Payment of Obligations and Taxes 68 
+
+Section 5.05.  Maintenance of Existence; Compliance 68 
+
+Section 5.06.  Maintenance of Property; Insurance 69 
+
+Section 5.07.  Books and Records 69 
+
+Section 5.08.  Additional Collateral and Guarantors; Further Assurances 70 
+
+Section 5.09.  Maintenance of Licenses; Material Contracts 71 
+
+Section 5.10.  Employee Benefits 72 
+
+Section 5.11.  Quarterly Lender Calls 72 
+
+Section 5.12.  Control Accounts 72 
+
+Section 5.13.  Information Regarding Borrower 72 
+
+Section 5.14.  Intellectual Property 72 
+
+    
+
+ii 
+
+  
+   
+
+JigarAnkitNeeraj 6   
+
+Negative Covenants of the Borrower   
+
+    
+
+Section 6.01.  Indebtedness 73 
+
+Section 6.02.  Liens 75 
+
+Section 6.03.  Sale And Leasebacks 77 
+
+Section 6.04.  Mergers, Consolidations, Etc 77 
+
+Section 6.05. [Reserved]. 78 
+
+Section 6.06.  Sales, Etc. of Assets 78 
+
+Section 6.07.  Investments and Acquisitions 79 
+
+Section 6.08.  Restricted Payments 80 
+
+Section 6.09.  Payment Restrictions Affecting Subsidiaries; No Further Negative Pledges 80 
+
+Section 6.10.  Conduct of Business 81 
+
+Section 6.11.  Prepayments, Etc., of Indebtedness 81 
+
+Section 6.12.  Amendments to Organizational Documents and Material Contracts 82 
+
+Section 6.13.  Accounting Changes; Fiscal Year 82 
+
+Section 6.14.  Speculative Transactions 82 
+
+Section 6.15.  Use of Proceeds 82 
+
+Section 6.16.  Transactions with Affiliates; Intercompany Transactions 82 
+
+Section 6.17.  Financial Covenants. 83 
+
+    
+
+JigarAnkitNeeraj 7   
+
+Events of Default   
+
+    
+
+Section 7.01.  Events of Default; Remedies with Respect to the Loan Obligations 85 
+
+    
+
+JigarAnkitNeeraj 8   
+
+The Administrative Agent and Collateral Agent   
+
+    
+
+    
+
+Section 8.01.  Appointment 88 
+
+Section 8.02.  Delegation of Duties 89 
+
+Section 8.03.  Exculpatory Provisions 89 
+
+Section 8.04.  Reliance by the Administrative Agent 91 
+
+Section 8.05.  Notice of Default 91 
+
+Section 8.06.  Non Reliance on Agent and Other Lenders 91 
+
+Section 8.07.  Indemnification 92 
+
+Section 8.08.  Administrative Agent in Its Individual Capacity 93 
+
+Section 8.09.  Successor Administrative Agent 94 
+
+Section 8.10.  Lenders as Administrative Agent 95 
+
+   
+
+
+
+Iii 
+
+  
+
+ 
+JigarAnkitNeeraj 9   
+
+Miscellaneous   
+
+    
+
+Section 9.01.  Amendments and Waivers 95 
+
+Section 9.02.  Communications 96 
+
+Section 9.03.  No Waiver; Cumulative Remedies 97 
+
+Section 9.04.  Survival of Representations and Warranties 97 
+
+Section 9.05.  Payment of Expenses, Indemnification Taxes and Costs 97 
+
+Section 9.06.  Successors and Assigns; Assignments; Participations 99 
+
+Section 9.07.  Right of Setoff 102 
+
+Section 9.08.  Counterparts 103 
+
+Section 9.09.  Severability 103 
+
+Section 9.10.  Governing Law 103 
+
+Section 9.11.  Submission to Jurisdiction; Judgment Currency; Waiver of Immunities; Waiver of Jury Trial 103 
+
+Section 9.12.  Confidentiality 106 
+
+Section 9.13.  Replacement of Lenders 107 
+
+Section 9.14.  USA PATRIOT Act 107 
+
+Section 9.15.  Effectiveness 108 
+
+ 
+JigarAnkitNeeraj
