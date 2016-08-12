@@ -47,7 +47,7 @@ public class MainClass {
         String filetype = tika.detect(fileEntry);
         System.out.println("FileType " + filetype);
         BodyContentHandler handler = new BodyContentHandler(-1);
-
+        String text = "";
         Metadata metadata = new Metadata();
 
         FileInputStream inputstream = null;
