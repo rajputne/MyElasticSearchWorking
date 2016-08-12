@@ -5,9 +5,10 @@
  */
 package com.mycompany.myelasticsearch;
 
-import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.get.GetResponse;
@@ -16,7 +17,6 @@ import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
-import static org.elasticsearch.index.query.QueryBuilders.fieldQuery;
 
 import org.elasticsearch.search.SearchHit;
 
@@ -101,33 +101,74 @@ public class Elastic {
 
     }
 
-    public static void searchDocument(Client client, String index, String type,
-             String value) {
+    public static ArrayList<String> searchDocumentColumn(Client client, String index, String type,
+            String field, String value) {
 
-        SearchResponse response = client.prepareSearch(index)
-                .setTypes(type)
-                .setSearchType(SearchType.QUERY_AND_FETCH)
-                .setQuery(QueryBuilders.termQuery("multi", value))
-                .setFrom(0).setSize(60).setExplain(true)
-                .execute()
-                .actionGet();
-
-        SearchResponse response1 = client.prepareSearch(index)
-        .setTypes(type)
-        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
-        .setQuery(QueryBuilders.termQuery("multi", value))             // Query
-        .setFrom(0).setSize(60).setExplain(true)
-        .execute()
-        .actionGet();
-        SearchHit[] results = response1.getHits().getHits();
-
-        System.out.println("Current results: " + results.length);
         QueryBuilder qb = QueryBuilders.queryString(value);
+
+        SearchResponse response2 = client.prepareSearch(index).setTypes(type).addField(field).execute().actionGet();
+        SearchHit[] results2 = response2.getHits().getHits();
+
+        System.out.println("Current results: " + results2.length);
+        ArrayList<String> linkedColumns = new ArrayList();
+        for (SearchHit hit : results2) {
+            System.out.println("------------------------------");
+            String columnValue = hit.field(field).getValue().toString();
+            //Map<String,Object> result = hit.getSource();  
+            linkedColumns.add(columnValue);
+            System.out.println(columnValue);
+        }
+        return linkedColumns;
+    }
+
+    public static void searchDocumentLinking(Client client, String index, String type,
+            String value) {
+
+        QueryBuilder qb = QueryBuilders.queryString(value);
+
         SearchResponse response2 = client.prepareSearch(index).setTypes(type).setQuery(qb).execute().actionGet();
         SearchHit[] results2 = response2.getHits().getHits();
         for (SearchHit hit : results2) {
             System.out.println("------------------------------");
             Map<String, Object> result = hit.getSource();
+            //Finding refered Links 
+            Iterator it = result.entrySet().iterator();
+            while (it.hasNext()) {
+                Map.Entry pair = (Map.Entry) it.next();
+                System.out.println(pair.getKey() + " = " + pair.getValue());
+                String valueLinks = (String) pair.getValue();
+                int valueIndex = valueLinks.indexOf("meaning specified in ");
+                String sectionLink = valueLinks.substring(valueIndex + 21, valueIndex + 21 + 12);
+
+                if (valueIndex != -1) {
+                    searchDocumentColumn(client, index, type, sectionLink, value);
+
+                }
+                System.out.println("sectionLink " + sectionLink);
+                // avoids a ConcurrentModificationException
+            }
+
+            System.out.println(result);
+        }
+    }
+
+    public static void searchDocument(Client client, String index, String type,
+            String value) {
+
+        QueryBuilder qb = QueryBuilders.queryString(value);
+        SearchResponse response2 = client.prepareSearch(index)
+                .setTypes(type)
+                .setQuery(qb)
+                .setFrom(0)
+                .setSize(60)
+                .setExplain(true).setSearchType(SearchType.DEFAULT)
+                .execute()
+                .actionGet();
+        SearchHit[] results2 = response2.getHits().getHits();
+        for (SearchHit hit : results2) {
+            System.out.println("------------------------------");
+            Map<String, Object> result = hit.getSource();
+
             System.out.println(result);
         }
     }
